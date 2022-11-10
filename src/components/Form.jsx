@@ -3,7 +3,7 @@ import Button from './Button'
 
 const Form = () => (
     <div id="contact" className='w-full flex flex-col justify-center items-center mt-20'> 
-    <h1 className={`custom-heading font-poppins`}>
+    <h1 className={`custom-heading font-poppins text-center`}>
          Get in touch
      </h1>
      <div className='w-full bg-primary flex flex-row justify-between mt-8 max-w-[750px]'>
