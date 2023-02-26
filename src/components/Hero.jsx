@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from '../style'
-import {banner, resume} from '../assets'
+import {profile, resume} from '../assets'
 import Button from './Button'
 
 
@@ -24,7 +24,7 @@ const Hero = () => {
             </div>
             <div class="md:mt-0 mt-10 border-2 rounded-[50%] border-[#1e1d1d33] ">
                 <div className='flex flex-col custom-border relative z-[0]'> 
-                    <img src={banner} alt="banner" className='rounded-[50%] z-[5] '/>
+                    <img src={profile} alt="banner" className='rounded-[50%] z-[5] w-[500px] h-[500px]'/>
                     {/* gradient start */}
                     <div className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient" />
                     <div className="absolute z-[1] w-[80%] h-[80%] rounded-full white__gradient bottom-40" />

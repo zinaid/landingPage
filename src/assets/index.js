@@ -1,4 +1,4 @@
-import banner from './banner.png'
+import banner from "./banner.png";
 import card from "./card.png";
 import logo from "./logo.svg";
 import send from "./Send.svg";
@@ -13,6 +13,7 @@ import mysql from "./mysql.svg";
 import reactIcon from "./reactIcon.svg";
 import tailwindLogo from "./tailwindLogo.svg";
 import resume from "./resume.pdf";
+import profile from "./profile.jpg";
 
 export {
   banner,
@@ -30,4 +31,5 @@ export {
   reactIcon,
   tailwindLogo,
   resume,
+  profile,
 };
